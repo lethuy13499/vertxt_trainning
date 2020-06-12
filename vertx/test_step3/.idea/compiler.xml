@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for test_step2" enabled="true">
+        <sourceOutputDir name="src/main/generated" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <option name="outputDirectory" value="C:\Users\lethitranthuy\Documents\vertx_trainning\vertx\test_step3/src/main" />
+        <processor name="io.vertx.codegen.CodeGenProcessor" />
+        <module name="test_step3" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="test_step3" options="-AoutputDirectory=C:\Users\lethitranthuy\Documents\vertx_trainning\vertx\test_step3/src/main" />
+    </option>
+  </component>
+</project>
